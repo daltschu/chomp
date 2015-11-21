@@ -1,0 +1,97 @@
+/* 
+    Document   : style.css
+    December 2014
+    Daniel Altschuler
+	Stylesheet for chomp
+*/
+
+body {
+	background: #ffde23
+}
+
+#intro {
+	margin-left: 3%;
+    margin-right: 3%;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#main {
+	display: none;
+}
+
+#example {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+    border: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.explain {
+    text-align: justify;
+}
+
+.score {
+	font-size: 28px;
+	color: #9f4141;
+	font-weight: bold;
+	padding-top: 2%;
+}
+
+.center {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.fsize {
+	font-size: 18px;
+}
+
+.out {
+	background: #DA720A;
+	padding: 1%;
+	border-radius: 4px;
+}
+
+.but {
+	border: 1px solid;
+	border-radius: 4px;
+	border-left-color: #F8820B;
+	border-top-color: #F8820B;
+	border-right-color: #B45E08;
+	border-bottom-color: #B45E08;
+	-webkit-transition: border-left-color 0.5s ease-in;
+	transition: border-left-color 0.5s ease-in;
+	-webkit-transition: border-top-color 0.5s ease-in;
+	transition: border-top-color 0.5s ease-in;
+	-webkit-transition: border-right-color 0.5s ease-in;
+	transition: border-right-color 0.5s ease-in;
+	-webkit-transition: border-bottom-color 0.5s ease-in;
+	transition: border-bottom-color 0.5s ease-in;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.but:hover {
+	border-left-color: #B45E08;
+	border-top-color: #B45E08;
+	border-right-color: #F8820B;
+	border-bottom-color: #F8820B;
+}
+
+canvas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    border: none;
+    max-width: 100%;
+    max-height: 100%;
+}
