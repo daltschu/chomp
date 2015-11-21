@@ -226,6 +226,7 @@ function handleTouchStartEvent(e)
         play(cellx, celly);
 
     }
+}
 
 function play(x, row)
 //row is between 0 (top) and 4 (bottom)
@@ -398,5 +399,3 @@ function findmove()
 
     return selection;
 }
-}
-
